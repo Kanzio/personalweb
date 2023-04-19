@@ -24,6 +24,7 @@ h2 {
 .left {
   margin-top: 10%;
   animation: fadeIn 1s;
+  min-width: 100px;
   width: 100%;
 }
 
