@@ -29,7 +29,13 @@ body {
   font-weight: bold;
 }
 
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
 .card {
+  animation: fadeIn 1s;
   background-color: white; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, white, #F5EBEB);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -73,6 +79,7 @@ img {
 button {
   border: none;
   outline: 0;
+  display: inline-block;
   padding: 8px;
   color: white;
   background-color: #867070;
