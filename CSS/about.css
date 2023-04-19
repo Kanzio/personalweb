@@ -1,0 +1,148 @@
+body {
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, white, #F5EBEB);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+span {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.left {
+  margin-top: 10%;
+}
+
+.ig {
+  color: #867070;
+}
+ 
+.git {
+  color:#867070;
+}
+
+.twit {
+  color: #867070;
+}
+
+.fb {
+  color: #867070;
+}
+
+.intro {
+  margin-top: 90px;
+  float: left;
+  padding: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.parag {
+  text-align: left;
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.topnav {
+  overflow: hidden;
+  margin-bottom: 1px;
+  margin-top: 2px;
+  position: fixed;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active{
+  color: #867070;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #867070;
+  text-align: center;
+  cursor: pointer;
+  width: 80px;
+  font-size: 15px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.card {
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, white, #F5EBEB);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 700px;
+  text-align: center;
+  border-radius: 0;
+  margin-right: 6%;
+  margin-top: 100px;
+
+}
+
+.container {
+  display: flex;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #867070;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}

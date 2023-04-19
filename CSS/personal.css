@@ -1,0 +1,96 @@
+body {
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, white, #F5EBEB);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topnav {
+  overflow: hidden;
+  margin-bottom: 1px;
+  margin-top: 2px;
+  position: absolute;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active{
+  color: #867070;
+  font-weight: bold;
+}
+
+.card {
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, white, #F5EBEB);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  margin-top: 55px;
+  border-radius: 0;
+}
+
+.card h2, .card p {
+  font-family: 'Inter', sans-serif;
+}
+
+h2 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 250px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:10px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.quote {
+  color: grey;
+  font-size: 12px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: #867070;
+  text-align: center;
+  cursor: pointer;
+  width: 40%;
+  font-size: 15px;
+  margin-top: 5px;
+  border-radius: 6px;
+  margin-bottom: 3%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
