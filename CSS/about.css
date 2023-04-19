@@ -113,11 +113,12 @@ button:hover, a:hover {
 }
 
 img {
-    border-radius: 50%;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+  border-radius: 50%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 5px;
 }
 
 .overlay {
