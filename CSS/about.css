@@ -24,6 +24,7 @@ h2 {
 .left {
   margin-top: 10%;
   animation: fadeIn 1s;
+  width: 100%;
 }
 
 .ig {
@@ -107,12 +108,11 @@ button:hover, a:hover {
   background-color: white; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, white, #F5EBEB);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 700px;
+  max-width: 500px;
+  width: 100%;
   text-align: center;
   border-radius: 0;
-  margin-right: 6%;
   margin-top: 100px;
-
 }
 
 .container {
