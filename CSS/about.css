@@ -63,7 +63,7 @@ h2 {
   overflow: hidden;
   margin-bottom: 1px;
   margin-top: 2px;
-  position: fixed;
+  position: absolute;
 }
 
 .topnav a {
