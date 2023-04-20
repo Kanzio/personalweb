@@ -140,6 +140,7 @@ img {
   opacity: 0;
   transition: .5s ease;
   background-color: #867070;
+  border-radius: 10px;
 }
 
 .text {
