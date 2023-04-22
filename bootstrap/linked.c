@@ -33,22 +33,10 @@ int main(){
     newNode2->prev = head;
     head = newNode3;
 
-    struct node *ptr = head->next;
-
-
-    tail->prev = NULL;
-    tail->next = ptr;
-    ptr->prev = tail;
-    head->next = NULL;
-    head->prev = ptr;
-    head = tail;
-    tail = ptr->next;
-
-
-
     struct node *curr = head;
     while(curr != NULL) {
         printf("%d ", curr->data);
+        curr = curr->next;
     }
     return 0;
 }

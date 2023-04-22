@@ -10,11 +10,10 @@ body {
   
   .topnav {
     overflow: hidden;
-    margin-bottom: 1px;
     margin-top: 2px;
-
+    margin-bottom: 30px;
   }
-  
+
   .topnav a {
     float: left;
     color: #000000;
