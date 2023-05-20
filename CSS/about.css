@@ -61,7 +61,7 @@ h2 {
 .topnav {
   overflow: hidden;
   margin-top: 2px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .topnav a {
@@ -123,6 +123,7 @@ a:hover {
 .container {
   display: flex;
   margin-top: auto;
+  margin-bottom: auto;
 }
 
 img {
