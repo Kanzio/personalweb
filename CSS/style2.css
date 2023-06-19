@@ -1,0 +1,166 @@
+/* CSS for both desktop and mobile */
+
+body {
+    background-color: white;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, white, #f5ebeb);
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+  }
+  
+  .logo {
+    /* Add styles for logo */
+  }
+  
+  .topnav {
+    float: right;
+    color: brown;
+    margin-right: 100px;
+  }
+  
+  .topnav a {
+    text-decoration: none;
+  }
+  
+  .about {
+    margin-left: 20px;
+    margin-bottom: 1px;
+  }
+  
+  #ojn {
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 454px;
+    height: 506px;
+    border-radius: 30px;
+  }
+  
+  .center {
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .butt {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .moreabout {
+    margin-top: 1px;
+    margin-left: 20px;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .left {
+    margin-left: 100px;
+  }
+  
+  .gallcon {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+    text-align: center;
+  }
+  
+  h2 {
+    width: 516px;
+    height: 134px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+  }
+  
+  h3 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.81px;
+    margin-right: 200px;
+  }
+  
+  button {
+    border-radius: 47px;
+    border-width: 1px;
+    background-color: #867070;
+    color: white;
+  }
+  
+  #morepic {
+    padding: 10px;
+  }
+  
+  #morabt {
+    padding: 10px;
+  }
+  
+  #work {
+    padding: 10px;
+  }
+  
+  
+  /* CSS for mobile */
+  
+  @media (max-width: 767px) {
+    .topnav {
+      float: left;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .center {
+      width: 100%;
+    }
+  
+    .butt {
+      margin-bottom: 20px;
+    }
+  
+    .flex {
+      flex-direction: column;
+    }
+  
+    .left {
+      margin-left: 0;
+    }
+  
+    #ojn {
+      margin-right: 0;
+      width: 100%;
+      height: auto;
+      border-radius: 30px;
+    }
+  
+    .gallcon {
+      text-align: center;
+    }
+  
+    h2 {
+      width: auto;
+      height: auto;
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+    }
+  
+    p {
+      margin-right: 0;
+    }
+  }
+  

@@ -47,7 +47,7 @@ body {
   max-width: 500px;
   margin: auto;
   text-align: center;
-  margin-top: auto;
+  margin-top: 10px;
 }
 
 .card h2,
