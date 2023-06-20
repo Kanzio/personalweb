@@ -14,12 +14,12 @@ body {
   
   .topnav {
     float: right;
-    color: brown;
     margin-right: 100px;
   }
   
   .topnav a {
     text-decoration: none;
+    color: black;
   }
   
   .about {
